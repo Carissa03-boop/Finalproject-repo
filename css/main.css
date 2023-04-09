@@ -8,22 +8,27 @@ nav{
 
 header{
     width: 100%;
-    height: 600px;
-    background-color: lightgray;
+    height: 900px;
+    background-image: url(../ROOT/assets/sick-666mick-04.jpg);
     background-size: cover;
+}
+
+.bigsec{
+    background-color: #2b2b2b;
 }
 
 footer{
     width: 100%;
     height: 120px;
-    background-color:white;
+    background-color: #2b2b2b;
     padding-top: 60px;
+    color: rgb(27, 220, 20);
 }
 
 
 .header{
 
-    padding-top: 200px;
+    padding-top: 400px;
     padding-left: 123px;
 }
 
@@ -60,8 +65,6 @@ footer{
 
 .nav-con li{
     float: left;
-    height: 30px;
-    background-color: white;
     border-radius: 5px;
     padding-left: 20px;
     padding-right: 20px;
@@ -72,14 +75,14 @@ footer{
 }
 
 .nav-con li:hover{
-    background-color: black;
-    color: white;
+
+    color: red;
     cursor:pointer
 }
 
 .active{
-    background-color:black!important;
-    color: #ffffff;
+
+    color: red;
 }
 
 .col-box{
@@ -105,19 +108,21 @@ footer{
 
 .normal{
     background-color: #2b2b2b;
-    color: white;
+    border:  2px solid rgb(27, 220, 20);
+    color: rgb(27, 220, 20);
 }
 
 .normal:hover{
     cursor: pointer;
-    background-color: white;
+    background-color:  rgb(27, 220, 20);
     color: #2b2b2b;
     border:  2px solid #2b2b2b;
     padding-bottom: 7px;
 }
 
 .inverted{
-    border: 2px solid #2b2b2b;
+    border: 2px solid  rgb(27, 220, 20);
+    color: rgb(27, 220, 20) ;
 }
 
 .feature{
@@ -127,11 +132,11 @@ footer{
 .releases{
     padding-top: 60px;
     padding-left: 9px;
+    color:  rgb(27, 220, 20);
 }
 
 .video{
-    margin-left: 100px;
-    width: 500px;
+    width: 600px;
     height: 390px;
     background-color: grey;
     text-align: center;
@@ -152,4 +157,135 @@ footer{
     padding-left: 60px;
     padding-right: 90px;
     padding-top: 10px;
+}
+
+.left{
+    margin-right: 0px !important;
+    margin-top: 200px;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+.col-boxone{
+    width: 100%;
+    height: 277px;
+    background-image: url(../ROOT/assets/splice\ records.png);
+    background-position: center;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 140px;
+}
+
+.col-boxtwo{
+    width: 100%;
+    height: 277px;
+    background-image: url(../ROOT/assets/weenend.png);
+    background-position: center;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 140px;
+}
+
+.col-boxthree{
+    width: 100%;
+    height: 277px;
+    background-image: url(../ROOT/assets/Screenshot\ 2023-04-09\ 154300.png);
+    background-position: center;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 140px;
+}
+
+.col-boxfour{
+    width: 100%;
+    height: 277px;
+    background-image: url(../ROOT/assets/Dj.png);
+    background-position: center;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 140px;
+}
+
+.col-boxfive{
+    width: 100%;
+    height: 277px;
+    background-image: url(../ROOT/assets/lloiso.png);
+    background-position: center;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 140px;
+}
+
+
+
+.col-boxsix{
+    width: 100%;
+    height: 277px;
+    background-image: url(../ROOT/assets/never\ enough.png);
+    background-position: center;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 140px;
+}
+
+.col-boxseven{
+    width: 100%;
+    height: 277px;
+    background-image: url(../ROOT/assets/purple.png);
+    background-position: center;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 140px;
+}
+
+.col-boxeight{
+    width: 100%;
+    height: 277px;
+    background-image: url(../ROOT/assets/timeless.png);
+    background-position: center;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 140px;
+}
+
+.col-boxnine{
+    width: 100%;
+    height: 277px;
+    background-image: url(../ROOT/assets/motion.png);
+    background-position: center;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 140px;
+}
+
+.col-boxten{
+    width: 100%;
+    height: 277px;
+    background-image: url(../ROOT/assets/beleiver.png);
+    background-position: center;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 140px;
+}
+
+.col-boxeleven{
+    width: 100%;
+    height: 277px;
+    background-image: url(../ROOT/assets/happier.png);
+    background-position: center;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 140px;
+}
+
+.col-boxtwelve{
+    width: 100%;
+    height: 277px;
+    background-image: url(../ROOT/assets/hope.png);
+    background-position: center;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 140px;
 }
