@@ -12,6 +12,16 @@ nav{
     padding-right: 6%;
 }
 
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #2b2b2b;
+    padding-top: 60px;
+    color: #B0FC38;
+    padding-right: 50px;
+    margin-right: 50px;
+}
+
 .logo{
     width: 152px;
     float: left;
@@ -27,12 +37,12 @@ nav{
 }
 
 .nav-con{
-    width: 600px;
+    width: 700px;
     height: 50px;
     float: right;
-    margin-top: 5px;
+    margin-top: 25px;
     padding-top: 15px;
-    margin-right: 500px;
+    margin-right: 460px;
 }
 
 .nav-con ul{
@@ -53,12 +63,12 @@ nav{
 }
 
 .nav-con li:hover{
-    color: green!important;
+    color: #B0FC38!important;
     cursor:pointer
 }
 
 .active{
-    color:  green!important;
+    color:  #B0FC38!important;
 }
 
 form{
@@ -100,17 +110,7 @@ select,button{
     background-color: #2b2b2b;
     text-align: center;
     margin-top: 100px;
-}
-
-
-
-footer{
-    width: 100%;
-    height: 400px;
-    background-color: #2b2b2b;
-    padding-top: 60px;
-    float: left;
-    margin-left: 220;
+    margin-left: -80px;
 }
 
 #play{
@@ -139,19 +139,29 @@ footer{
 }
 
 .contact{
-    color: green;
+    color: #B0FC38;
     float: right;
     margin-top: 140px;
-    margin-right: 280px;
+    padding-right: 140px;
 }
 
-.contact img,p{
+.contact img,h5{
     float: left;
-    padding-left: 10px;
+    padding-left: 15px;
     margin: 0% auto;
-
 }
-.contact p{
-    margin-top: 15px;
+.contact h5{
+    margin-top: 10px;
     
+}
+
+footer h5{
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 300px;
+    float: left;
+}
+
+footer img{
+    float: right;
 }

@@ -27,12 +27,12 @@ nav{
 }
 
 .nav-con{
-    width: 600px;
+    width: 700px;
     height: 50px;
     float: right;
     margin-top: 5px;
-    padding-top: 15px;
-    margin-right: 500px;
+    padding-top: 35px;
+    margin-right: 470px;
 }
 
 .nav-con ul{
@@ -53,12 +53,12 @@ nav{
 }
 
 .nav-con li:hover{
-    color:green !important;
+    color: #B0FC38!important;
     cursor:pointer
 }
 
 .active{
-    color: green !important;
+    color: #B0FC38 !important;
 }
 
 .col-box{
@@ -121,13 +121,13 @@ nav{
     text-align: center;
     margin-top: 70px;
     padding-left: 60px;
-    border-bottom: 1px solid lightgreen;
+    border-bottom: 1px solid #B0FC38;
     color: white;
 }
 
 .reghoek h6{
     float: left;
-    padding-right: 80px;
+    padding-right: 50px;
 
 
 }
@@ -138,20 +138,14 @@ nav{
     text-align: center;
     padding-left: 60px;
     padding-top: 15px;
-    border-bottom: 1px solid lightgreen;
+    border-bottom: 1px solid #B0FC38;
     color: white;
 }
 
-.reghoek1 h6{
-    float: left;
-    padding-right: 80px;
-
-
-}
 
 .reghoek1 h6{
     float: left;
-    padding-right: 70px;
+    padding-right: 50px;
 
 
 }
@@ -167,13 +161,13 @@ nav{
 .line-fill{
     width: 50%;
     height: 5px;
-    background-color: green;
+    background-color: #B0FC38;
 }
 
 .marker{
     width: 20px;
     height: 20px;
-    background-color: green;
+    background-color: #B0FC38;
     border-radius: 20px;
     margin: 0 auto;
     margin-top: -12px;
@@ -182,7 +176,7 @@ nav{
 .cover{
     width: 90px;
     height: 90px;
-    background-image: url(../weenend.png);
+    background-image: url(../ROOT/assets/weenend.png);
     background-size: cover;
     margin-top: 30px;
 }
