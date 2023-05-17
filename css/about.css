@@ -37,12 +37,12 @@ footer{
 }
 
 .nav-con{
-    width: 700px;
+    width: 900px;
     height: 50px;
     float: right;
     margin-top: 25px;
     padding-top: 15px;
-    margin-right: 460px;
+    margin-right: 250px;
 }
 
 .nav-con ul{
@@ -60,6 +60,11 @@ footer{
     padding-top: 1px;
     padding-bottom: 10px;
     color: white;
+}
+
+.nav-con input{
+   float: right !important;
+   margin-right: -250px;
 }
 
 .nav-con li:hover{
@@ -165,3 +170,14 @@ footer h5{
 footer img{
     float: right;
 }
+
+.search{
+    background-color: black;
+    width: 200px;
+    height: 35px;
+    border: 2px solid #B0FC38 ;
+    border-radius: 40px;
+    color: #f7f7f7;
+    margin-top: -5px;
+}
+

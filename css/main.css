@@ -79,10 +79,10 @@ header h1,h4{
 .nav-con{
     width: 800px;
     height: 50px;
-    float: right;
+    float: left;
     margin-top: 25px;
     padding-top: 15px;
-    margin-right: 530px;
+
 }
 
 .nav-con ul{
@@ -412,4 +412,23 @@ footer h5{
     padding-top: 10px;
     width: 300px;
     float: left;
+}
+
+.input-el{
+    background-color: black;
+    width: 100%;
+    height: 34px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border: 2px solid #B0FC38;
+    border-radius: 40px;
+    color: white;
+}
+
+.search{
+    margin-left: 100px;
+    padding-top: 25px;
+    padding-right: 100px;
+    float: right;
 }
