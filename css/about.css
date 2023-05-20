@@ -47,6 +47,7 @@ footer{
 
 .nav-con ul{
     list-style: none;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .nav-con li{
@@ -89,6 +90,8 @@ form{
 
 form h3{
     color: #f7f7f7;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
 }
 
 .input-el{
@@ -143,6 +146,15 @@ select,button{
     color: white;
 }
 
+.col-boxi h3{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.col-boxi h1{
+    font-family: 'Rubik Mono One', sans-serif; 
+    color: #B0FC38
+}
+
 .contact{
     color: #B0FC38;
     float: right;
@@ -165,6 +177,7 @@ footer h5{
     padding-top: 10px;
     width: 300px;
     float: left;
+    font-family: 'Quicksand', sans-serif;
 }
 
 footer img{

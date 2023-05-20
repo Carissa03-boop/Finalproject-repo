@@ -37,6 +37,7 @@ nav{
 
 .nav-con ul{
     list-style: none;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .nav-con input{
@@ -79,13 +80,20 @@ nav{
     background-image: url(../ROOT/assets/How\ Podcasting\ Has\ Changed\ My\ Life.jpeg);
     background-size: cover;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 20px;
     padding-top: 150px;
     color: azure;
 }
 
 .col-boxe img{
     margin-top: 30px;
+}
+
+.einde{
+    color: #f7f7f7;
+    padding-top: 90px;
+    font-family: 'Quicksand', sans-serif;
+    color: #B0FC38
 }
 
 .player{
@@ -101,12 +109,14 @@ nav{
     width: 100%;
     height: 30px;
     color: white;
+
 }
 
 .slider h5{
     float: left;
     padding-left: 30px;
     padding-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
     
 }
 
@@ -121,7 +131,8 @@ nav{
 .wich h5{
     float: left;
     padding-left: 60px ;
-    
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
 }
 
 .reghoek{
@@ -132,13 +143,12 @@ nav{
     padding-left: 60px;
     border-bottom: 1px solid #B0FC38;
     color: white;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .reghoek h6{
     float: left;
     padding-right: 50px;
-
-
 }
 
 .reghoek1{
@@ -149,6 +159,7 @@ nav{
     padding-top: 15px;
     border-bottom: 1px solid #B0FC38;
     color: white;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -199,6 +210,15 @@ nav{
     color: white;
 }
 
+.artist h2{
+     font-family: 'Quicksand', sans-serif;
+     font-weight: 600;
+}
+
+.artist p{
+    font-family: 'Quicksand', sans-serif;
+}
+
 .pause{
     width: 100;
     height: 100;
@@ -238,3 +258,5 @@ nav{
     color: #f7f7f7;
     margin-top: -5px;
 }
+
+
